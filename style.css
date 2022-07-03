@@ -1,0 +1,178 @@
+body{
+	font-family: 'raleway',sans-serif;
+	margin: 0px;
+	padding: 0px;
+
+}
+.btn{
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.custom-btn{
+	background-color: #4BA87d;
+	padding: 10px 20px;
+	border: none;
+	color: white;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu-bar li, .menu-bar button{
+	border-bottom: 3px solid #4BA87d;
+	font-weight: 900;
+	margin-right: 50px;
+	padding: 10px;
+
+
+}
+ .services-section{
+	padding: 100px 10%;
+	
+	background-color: #CAEAC7;
+}
+.banner-section{
+	padding: 100px 10%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+.blank-btn{
+	color: #4BA87D;
+	border: 2px solid #4BA87D;
+	padding: 10px 20px;
+	background-color: #fff;
+}
+.banner-text{
+	display: flex;
+	
+	align-items: center;
+}
+.try-btn{
+	margin-right: 15px;
+	padding: 12px 20px;
+}
+.black-heading{
+	font-size: 47px;
+	margin: 10px;
+	font-weight: 600;
+}
+.banner-img{
+	display: flex;
+	align-items: center;
+}
+.reach-section{
+	background-color: #F7F7F7;
+	padding: 100px 15%;
+}
+.reach-content{
+	
+	height: 500px;
+	background-image: url("images/recharge.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.reach-content h1{
+	color: white;
+	font-size: 60px;
+	font-weight: 700;
+}
+.text-center{
+	text-align: center;
+}
+
+.services, .customers{
+	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 50px;
+
+
+}
+.service{
+	box-shadow: 2px 2px 20px gray;
+	background-color: #fff;
+}
+.service img{
+	width: 100%;
+}
+.services-text{
+	padding: 25px;
+}
+.learn{
+	color: #4BA87d;
+	font-size: 20px;
+}
+.customer-section{
+	padding: 100px 20%;
+}
+.customer{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 250px;
+color: #fff;
+padding: 20px;
+display: flex;
+align-items: flex-end;
+
+}
+.customer h1{
+	font-size: 50px;
+	margin:  0px;
+}
+.customer h2{
+	margin: 3px;
+}
+.customer-one{
+	background-image: url(images/customers/customer1.jpg);
+}
+.customer-two{
+	background-image: url(images/customers/customer2.jpg);
+}
+.customer-three{
+	background-image: url(images/customers/customer3.jpg);
+}
+
+
+.contact-header{
+	font-size: 45px;
+	font-weight: 900;
+}
+.contact-form{
+	display: flex;
+	justify-content:center ;
+}
+.contact-form input{
+	padding: 10px 15px;
+	border-radius: 10px;
+	box-shadow: none;
+	border: 2px solid lightgray;
+	width: 300px;
+	margin-right: 20px;
+
+}
+.contact-section{
+	margin:50px 0px 100px 0px}
+	
+.green-text{
+	color: #4BA87d;
+	text-align: center;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 2fr repeat(4, 4fr);
+	padding: 50px 15%;
+}
+
+footer p{
+	font-weight: 800;
+}
